@@ -41,8 +41,22 @@ void main(List<String> args) {
   // var fff = kontan.toString();
   // print(fff);
 
-  var hi = 'Hi 🇩🇰';
-  print(hi);
-  print(hi.length);
-  print('End of string: ${hi.substring(hi.length - 1)}');
+  // var hi = 'Hi 🇩🇰';
+  // print(hi);
+  // print(hi.length);
+  // print('End of string: ${hi.substring(hi.length - 1)}');
+
+  // var d = int.parse('4');
+  // var e = int.tryParse('uyryy'); // равен null
+
+  // print(d);
+  // print(e);
+
+  //================Sound Null Safety===============
+  int? r = null;
+
+  if (r != null) {
+    var v = r + 5;
+    print(v);
+  }
 }
