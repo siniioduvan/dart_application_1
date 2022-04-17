@@ -26,6 +26,23 @@ void main(List<String> args) {
 
   //===========Строки==================
 
-  var a = 'qwe' + 'rty' + 'uio';
-  print(a);
+  //var a = 'qwe' + 'rty' + 'uio';
+  // var b = 'khgfhg';
+  // var c = 'dfsd';
+  // var w = '$b $c';
+
+  // print(w);
+
+  // var list = ['satu', 'dua', 'tiga'];
+  // var kontan = StringBuffer();
+  // list.forEach((item) {
+  //   kontan.write(item);
+  // });
+  // var fff = kontan.toString();
+  // print(fff);
+
+  var hi = 'Hi 🇩🇰';
+  print(hi);
+  print(hi.length);
+  print('End of string: ${hi.substring(hi.length - 1)}');
 }
