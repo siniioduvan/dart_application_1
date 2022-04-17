@@ -25,4 +25,7 @@ void main(List<String> args) {
   // print(t);
 
   //===========Строки==================
+
+  var a = 'qwe' + 'rty' + 'uio';
+  print(a);
 }
